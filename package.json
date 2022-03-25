@@ -1,0 +1,24 @@
+{
+  "name": "albanian-nouns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon --ignore 'nouns.json' index.js",
+    "test": "jest"
+  },
+  "author": "Tal Efronny",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.26.1",
+    "node-fetch": "2.6.1",
+    "node-html-parser": "^5.3.3",
+    "nodemon": "2.0.15"
+  },
+  "devDependencies": {
+    "@types/jest": "27.4.1",
+    "jest": "27.5.1"
+  }
+}
